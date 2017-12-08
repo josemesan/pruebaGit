@@ -26,7 +26,7 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://localhost:3306/pruebaGit?useUnicode=true&characterEncoding=utf8&useSSL=false
+        url: jdbc:mysql://localhost:3306/prueba5?useUnicode=true&characterEncoding=utf8&useSSL=false
         username: root
         password:
         hikari:
@@ -103,7 +103,7 @@ jhipster:
             # security key (this key should be unique for your application, and kept secret)
             key: 551133d062044570011cbb33512c07e203f887ca
     mail: # specific JHipster mail property, for standard properties see MailProperties
-        from: pruebaGit@localhost
+        from: prueba5@localhost
         base-url: http://127.0.0.1:8080
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
@@ -111,7 +111,7 @@ jhipster:
             enabled: false
             host: localhost
             port: 2003
-            prefix: pruebaGit
+            prefix: prueba5
         prometheus: # Use the "prometheus" Maven profile to have the Prometheus dependencies
             enabled: false
             endpoint: /prometheusMetrics
