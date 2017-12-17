@@ -23,7 +23,7 @@ management:
             enabled: false # When using the MailService, configure an SMTP server and set this to true
 spring:
     application:
-        name: pruebaGit
+        name: prueba5
     profiles:
         # The commented value for `active` can be replaced with valid Spring profiles to load.
         # Otherwise, it will be filled in by maven when building the WAR file
@@ -82,8 +82,8 @@ jhipster:
         from: prueba5@localhost
     swagger:
         default-include-pattern: /api/.*
-        title: pruebaGit API
-        description: pruebaGit API documentation
+        title: prueba5 API
+        description: prueba5 API documentation
         version: 0.0.1
         terms-of-service-url:
         contact-name:

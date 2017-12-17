@@ -1,6 +1,6 @@
 version: '2'
 services:
-    pruebagit-sonar:
+    prueba5-sonar:
         image: sonarqube:6.4-alpine
         ports:
             - 9000:9000

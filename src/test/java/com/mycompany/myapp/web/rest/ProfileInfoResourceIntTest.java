@@ -1,7 +1,7 @@
 package com.mycompany.myapp.web.rest;
 
 import io.github.jhipster.config.JHipsterProperties;
-import com.mycompany.myapp.PruebaGitApp;
+import com.mycompany.myapp.Prueba5App;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -25,7 +25,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see ProfileInfoResource
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = PruebaGitApp.class)
+@SpringBootTest(classes = Prueba5App.class)
 public class ProfileInfoResourceIntTest {
 
     @Mock

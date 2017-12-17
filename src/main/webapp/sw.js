@@ -1,5 +1,5 @@
-var dataCacheName = 'PruebaGit-v1';
-var cacheName = 'PruebaGit-1';
+var dataCacheName = 'Prueba5-v1';
+var cacheName = 'Prueba5-1';
 var filesToCache = [
     '/',
     '/index.html'

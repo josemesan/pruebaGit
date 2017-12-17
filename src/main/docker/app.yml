@@ -1,14 +1,14 @@
 version: '2'
 services:
-    pruebagit-app:
-        image: pruebagit
+    prueba5-app:
+        image: prueba5
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mysql://prueba5-mysql:3306/prueba5?useUnicode=true&characterEncoding=utf8&useSSL=false
             - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
         ports:
             - 8080:8080
-    pruebagit-mysql:
+    prueba5-mysql:
         extends:
             file: mysql.yml
-            service: pruebagit-mysql
+            service: prueba5-mysql

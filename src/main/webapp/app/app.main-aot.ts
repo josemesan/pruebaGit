@@ -1,9 +1,9 @@
 import { platformBrowser } from '@angular/platform-browser';
 import { ProdConfig } from './blocks/config/prod.config';
-import { PruebaGitAppModuleNgFactory } from '../../../../target/aot/src/main/webapp/app/app.module.ngfactory';
+import { Prueba5AppModuleNgFactory } from '../../../../target/aot/src/main/webapp/app/app.module.ngfactory';
 
 ProdConfig();
 
-platformBrowser().bootstrapModuleFactory(PruebaGitAppModuleNgFactory)
+platformBrowser().bootstrapModuleFactory(Prueba5AppModuleNgFactory)
 .then((success) => console.log(`Application started`))
 .catch((err) => console.error(err));

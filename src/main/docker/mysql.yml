@@ -1,11 +1,11 @@
 version: '2'
 services:
-    pruebagit-mysql:
+    prueba5-mysql:
         image: mysql:5.7.19
         # volumes:
-        #     - ~/volumes/jhipster/pruebaGit/mysql/:/var/lib/mysql/
+        #     - ~/volumes/jhipster/prueba5/mysql/:/var/lib/mysql/
         environment:
-            - MYSQL_USER=admin
+            - MYSQL_USER=root
             - MYSQL_ALLOW_EMPTY_PASSWORD=yes
             - MYSQL_DATABASE=prueba5
         ports:

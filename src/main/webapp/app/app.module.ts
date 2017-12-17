@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { Ng2Webstorage } from 'ng2-webstorage';
 
-import { PruebaGitSharedModule, UserRouteAccessService } from './shared';
-import { PruebaGitHomeModule } from './home/home.module';
-import { PruebaGitAdminModule } from './admin/admin.module';
-import { PruebaGitAccountModule } from './account/account.module';
-import { PruebaGitEntityModule } from './entities/entity.module';
+import { Prueba5SharedModule, UserRouteAccessService } from './shared';
+import { Prueba5HomeModule } from './home/home.module';
+import { Prueba5AdminModule } from './admin/admin.module';
+import { Prueba5AccountModule } from './account/account.module';
+import { Prueba5EntityModule } from './entities/entity.module';
 
 import { customHttpProvider } from './blocks/interceptor/http.provider';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
@@ -29,11 +29,11 @@ import {
         BrowserModule,
         LayoutRoutingModule,
         Ng2Webstorage.forRoot({ prefix: 'jhi', separator: '-'}),
-        PruebaGitSharedModule,
-        PruebaGitHomeModule,
-        PruebaGitAdminModule,
-        PruebaGitAccountModule,
-        PruebaGitEntityModule,
+        Prueba5SharedModule,
+        Prueba5HomeModule,
+        Prueba5AdminModule,
+        Prueba5AccountModule,
+        Prueba5EntityModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
@@ -51,4 +51,4 @@ import {
     ],
     bootstrap: [ JhiMainComponent ]
 })
-export class PruebaGitAppModule {}
+export class Prueba5AppModule {}

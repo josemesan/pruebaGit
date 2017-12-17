@@ -1,6 +1,6 @@
 package com.mycompany.myapp.service;
 
-import com.mycompany.myapp.PruebaGitApp;
+import com.mycompany.myapp.Prueba5App;
 import com.mycompany.myapp.domain.PersistentToken;
 import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.repository.PersistentTokenRepository;
@@ -32,7 +32,7 @@ import static org.assertj.core.api.Assertions.*;
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = PruebaGitApp.class)
+@SpringBootTest(classes = Prueba5App.class)
 @Transactional
 public class UserServiceIntTest {
 

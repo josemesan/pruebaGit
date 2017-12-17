@@ -1,7 +1,7 @@
 package com.mycompany.myapp.web.rest;
 import com.mycompany.myapp.config.Constants;
 
-import com.mycompany.myapp.PruebaGitApp;
+import com.mycompany.myapp.Prueba5App;
 import com.mycompany.myapp.domain.Authority;
 import com.mycompany.myapp.domain.PersistentToken;
 import com.mycompany.myapp.domain.User;
@@ -51,7 +51,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AccountResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = PruebaGitApp.class)
+@SpringBootTest(classes = Prueba5App.class)
 public class AccountResourceIntTest {
 
     @Autowired

@@ -1,6 +1,6 @@
 package com.mycompany.myapp.web.rest;
 
-import com.mycompany.myapp.PruebaGitApp;
+import com.mycompany.myapp.Prueba5App;
 import com.mycompany.myapp.domain.Authority;
 import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.repository.UserRepository;
@@ -47,7 +47,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see UserResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = PruebaGitApp.class)
+@SpringBootTest(classes = Prueba5App.class)
 public class UserResourceIntTest {
 
     private static final Long DEFAULT_ID = 1L;

@@ -2,8 +2,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { DatePipe } from '@angular/common';
 
 import {
-    PruebaGitSharedLibsModule,
-    PruebaGitSharedCommonModule,
+    Prueba5SharedLibsModule,
+    Prueba5SharedCommonModule,
     CSRFService,
     AuthServerProvider,
     AccountService,
@@ -18,8 +18,8 @@ import {
 
 @NgModule({
     imports: [
-        PruebaGitSharedLibsModule,
-        PruebaGitSharedCommonModule
+        Prueba5SharedLibsModule,
+        Prueba5SharedCommonModule
     ],
     declarations: [
         JhiLoginModalComponent,
@@ -38,7 +38,7 @@ import {
     ],
     entryComponents: [JhiLoginModalComponent],
     exports: [
-        PruebaGitSharedCommonModule,
+        Prueba5SharedCommonModule,
         JhiLoginModalComponent,
         HasAnyAuthorityDirective,
         DatePipe
@@ -46,4 +46,4 @@ import {
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 
 })
-export class PruebaGitSharedModule {}
+export class Prueba5SharedModule {}

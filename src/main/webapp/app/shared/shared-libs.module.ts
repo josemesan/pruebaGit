@@ -26,4 +26,4 @@ import { CookieModule } from 'ngx-cookie';
         InfiniteScrollModule
     ]
 })
-export class PruebaGitSharedLibsModule {}
+export class Prueba5SharedLibsModule {}

@@ -2,14 +2,14 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 import {
-    PruebaGitSharedLibsModule,
+    Prueba5SharedLibsModule,
     JhiAlertComponent,
     JhiAlertErrorComponent
 } from './';
 
 @NgModule({
     imports: [
-        PruebaGitSharedLibsModule
+        Prueba5SharedLibsModule
     ],
     declarations: [
         JhiAlertComponent,
@@ -23,9 +23,9 @@ import {
         },
     ],
     exports: [
-        PruebaGitSharedLibsModule,
+        Prueba5SharedLibsModule,
         JhiAlertComponent,
         JhiAlertErrorComponent
     ]
 })
-export class PruebaGitSharedCommonModule {}
+export class Prueba5SharedCommonModule {}

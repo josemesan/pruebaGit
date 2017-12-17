@@ -15,4 +15,4 @@ import { Http, BaseRequestOptions } from '@angular/http';
         }
     ]
 })
-export class PruebaGitTestModule {}
+export class Prueba5TestModule {}

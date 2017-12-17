@@ -1,7 +1,7 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { PruebaGitSharedModule } from '../shared';
+import { Prueba5SharedModule } from '../shared';
 
 import {
     Register,
@@ -23,7 +23,7 @@ import {
 
 @NgModule({
     imports: [
-        PruebaGitSharedModule,
+        Prueba5SharedModule,
         RouterModule.forRoot(accountState, { useHash: true })
     ],
     declarations: [
@@ -46,4 +46,4 @@ import {
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class PruebaGitAccountModule {}
+export class Prueba5AccountModule {}
